@@ -1,8 +1,5 @@
-/* eslint-env node */
 'use strict';
 
-var fs = require('fs');
-var path = require('path');
 var FileCreator = require('broccoli-file-creator');
 
 function findRoot(current) {
